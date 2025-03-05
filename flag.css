@@ -1,0 +1,33 @@
+.flag{
+    background-color: lightskyblue;
+    width: 900px;
+    height: 600px;
+    position: relative;
+    top: 100px;
+    left: 400px;
+  }
+  .flag > div{
+    background-color: white;
+    height: 200px;
+    width: 100%;
+    position: absolute;
+    top: 200px;
+  }
+  .flag div div{
+    background-color: gold;
+    height: 100px;
+    width: 100px ;
+    border-radius: 50%;
+    position: relative;
+    top: 25px;
+    left:400px;
+  }
+  p{
+    margin: 0;
+    text-align: center;
+    color: white;
+    font-size: 4rem;
+  }
+  body div div div p {
+    color: black;
+  }
